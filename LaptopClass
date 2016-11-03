@@ -1,0 +1,152 @@
+public class Laptop {
+	
+	private String Brand;
+	private String Model;
+	private double Price;
+	private String DimensionsResolution;
+	private String Monitor;
+	private String ProcessorSpeed;
+	private String CPU;
+	private String RAM;
+	private String Storage;
+	private String Graphics;
+	private String GPU;
+	private String Power;
+	private String Software;
+	private String Weight;
+	
+	private int[] ratings = new int[10];
+	
+	private int score;
+
+	public String getBrand() {
+		return Brand;
+	}
+
+	public void setBrand(String brand) {
+		Brand = brand;
+	}
+
+	public String getModel() {
+		return Model;
+	}
+
+	public void setModel(String model) {
+		Model = model;
+	}
+
+	public double getPrice() {
+		return Price;
+	}
+
+	public void setPrice(double price) {
+		Price = price;
+	}
+
+	public String getDimensionsResolution() {
+		return DimensionsResolution;
+	}
+
+	public void setDimensionsResolution(String dimensionsResolution) {
+		DimensionsResolution = dimensionsResolution;
+	}
+
+	public String getMonitor() {
+		return Monitor;
+	}
+
+	public void setMonitor(String monitor) {
+		Monitor = monitor;
+	}
+
+	public String getProcessorSpeed() {
+		return ProcessorSpeed;
+	}
+
+	public void setProcessorSpeed(String processorSpeed) {
+		ProcessorSpeed = processorSpeed;
+	}
+
+	public String getCPU() {
+		return CPU;
+	}
+
+	public void setCPU(String cPU) {
+		CPU = cPU;
+	}
+
+	public String getRAM() {
+		return RAM;
+	}
+
+	public void setRAM(String rAM) {
+		RAM = rAM;
+	}
+
+	public String getStorage() {
+		return Storage;
+	}
+
+	public void setStorage(String storage) {
+		Storage = storage;
+	}
+
+	public String getGraphics() {
+		return Graphics;
+	}
+
+	public void setGraphics(String graphics) {
+		Graphics = graphics;
+	}
+
+	public String getGPU() {
+		return GPU;
+	}
+
+	public void setGPU(String gPU) {
+		GPU = gPU;
+	}
+
+	public String getPower() {
+		return Power;
+	}
+
+	public void setPower(String power) {
+		Power = power;
+	}
+
+	public String getSoftware() {
+		return Software;
+	}
+
+	public void setSoftware(String software) {
+		Software = software;
+	}
+
+	public String getWeight() {
+		return Weight;
+	}
+
+	public void setWeight(String weight) {
+		Weight = weight;
+	}
+
+	public int[] getRatings() {
+		return ratings;
+	}
+
+	public void setRatings(int[] ratings) {
+		this.ratings = ratings;
+	}
+
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+	
+}
+
+	
